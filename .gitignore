@@ -1,0 +1,11 @@
+ebin
+deps
+.rebar
+erl_crash.dump
+log
+*.iml
+.idea
+.eunit
+_build/
+.fetch
+mix.lock

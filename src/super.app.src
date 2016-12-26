@@ -1,0 +1,9 @@
+{application, super,
+ [
+  {description, ""},
+  {vsn, "1.0.0"},
+  {registered, [super_sup]},
+  {applications, [kernel,stdlib,lager,mnesia,notify,cluster]},
+  {mod, { super_app, []}},
+  {env, [{count,10}]}
+ ]}.
